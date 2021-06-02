@@ -1,0 +1,8 @@
+Model path: model_zoo/dncnn_25.pth
+Params number: 555137
+model_name:dncnn_25, image sigma:25
+testsets/bsd68
+
+Average PSNR/SSIM(RGB) - bsd68_dncnn_25 - PSNR: 29.23 dB; SSIM: 0.8279
+Note: using defaults from github repository. model = net(in_nc=n_channels, out_nc=n_channels, nc=64, nb=nb, act_mode='R') => only using relu layer. Not using batch normalization
+############################################################################################
